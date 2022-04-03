@@ -15,7 +15,7 @@
     bottom: 0;
     left: 51%;
     right: 51%;
-    background: $main-colour;
+    background: #ffffff;
     transition-duration: 0.2s;
     transition-property: right, left;
     transition-timing-function: ease-out;
@@ -104,7 +104,7 @@
     top: calc((100% - 1px) / 2);
     width: 20px;
     height: 1px;
-    background-color: $main-colour;
+    background-color: #ffffff;
 
     &:nth-child(1) {
       transform: translateY(6px) rotate(0deg);
