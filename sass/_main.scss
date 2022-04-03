@@ -46,7 +46,8 @@ main {
     }
 
     p > a {
-      color: $weblink_color;
+      color: $secondary-colour;
+      text-decoration: underline;
 
       &:hover {
         border-bottom: 1px solid $secondary-colour;
