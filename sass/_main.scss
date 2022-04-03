@@ -223,7 +223,7 @@ main {
   &__title {
     display: inline-block;
     font-size: 18px;
-    color: $main-colour;
+    color: $secondary-colour;
     border-bottom: 2px solid $main-colour;
   }
 
@@ -243,7 +243,7 @@ main {
         position: relative;
         top: -8px;
         right: -2px;
-        color: $main-colour;
+        color: $secondary-colour;
         font-size: 12px;
       }
     }
