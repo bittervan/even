@@ -8,14 +8,15 @@
     font-weight: 800;
 
     a {
-      color: #34495e;
-      font-size: 36px;
+      color: #ffffff;
+      font-size: 40px;
     }
   }
 
   .menu {
     align-self: flex-start;
     font-family: $decoration-font-family;
+    font-weight: 800;
 
     ul {
       display: inline-block;
@@ -27,7 +28,7 @@
         @include underline-from-center;
 
         a {
-          color: #34495e;
+          color: #ffffff;
           font-size: 18px;
         }
       }
