@@ -45,25 +45,25 @@
 }
 
 .mobile-menu {
-  background-color: rgba($secondary-colour, 0.5);
+  background-color: rgba($main-colour, 0.5);
 
   .mobile-menu-list {
     position: relative;
     list-style: none;
     margin-top: 50px;
     padding: 0;
-    border-top: 1px solid $secondary-colour;
+    border-top: 1px solid $main-colour;
 
     .mobile-menu-item {
       padding: 10px 30px;
-      border-bottom: 1px solid $secondary-colour;
+      border-bottom: 1px solid $main-colour;
     }
 
     a {
       font-size: 18px;
 
       &:hover {
-        color: $main-colour;
+        color: $secondary-colour;
       }
     }
   }

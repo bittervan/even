@@ -9,12 +9,15 @@ $theme-color-map: (
 );
 
 // TODO: allow to change that
+$my_white: #ffffff;
+$weblink_color: #44ccff;
 $main-colour: #000000;
-$secondary-colour: #000000;
-$body-width: 1200px;
+$secondary-colour: #0088ff;
+$code-bg-color: #001122;
+$body-width: 1050px;
 $mobile-navbar-height: 50px !default;
 $code-colour: #0088ff;
-$code-font-family: Fira Code, Consolas, Monaco, Menlo, Consolas, monospace !default;
+$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 $decoration-font-family: serif;
 
 @mixin min-screen($min-width: $body-width) {

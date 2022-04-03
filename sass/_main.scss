@@ -16,7 +16,8 @@ main {
     font-size: 1.1rem;
 
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
+      color: $secondary-colour;
     }
   }
 
@@ -41,14 +42,15 @@ main {
       padding: 3px 5px;
       border-radius: 4px;
       color: $code-colour;
-      background: $secondary-colour;
+      background: $code-bg-color;
     }
 
     p > a {
-      color: $main-colour;
+      color: $weblink_color;
 
       &:hover {
-        border-bottom: 1px solid $main-colour;
+        border-bottom: 1px solid $secondary-colour;
+        color: $secondary-colour;
       }
     }
 
@@ -133,7 +135,7 @@ main {
         }
 
         &:hover {
-          color: $main-colour;
+          color: $secondary-colour;
         }
       }
     }
@@ -196,7 +198,7 @@ main {
   transition: transform 0.3s ease-out;
 
   &:hover {
-    color: $main-colour;
+    color: $secondary-colour;
   }
 }
 
@@ -234,7 +236,7 @@ main {
       position: relative;
 
       &:hover {
-        color: $main-colour;
+        color: $secondary-colour;
       }
 
       .count {
@@ -257,13 +259,13 @@ main {
     transition: 0.2s ease-out;
 
     &:hover {
-      border-left: 3px solid $main-colour;
+      border-left: 3px solid $secondary-colour;
       transform: translateX(4px);
     }
 
     &__time {
       margin-right: 10px;
-      color: #8a8a8a;
+      color: #ffffff;
     }
 
     &__title a {
@@ -274,11 +276,11 @@ main {
 
 .about {
   p > a {
-    color: $main-colour;
+    color: $my_white;
     word-break: break-all;
 
     &:hover {
-      border-bottom: 1px solid $main-colour;
+      border-bottom: 1px solid $secondary-colour;
     }
   }
 }
